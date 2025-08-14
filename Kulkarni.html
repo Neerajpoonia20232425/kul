@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Status of the File</title>
+  <style>
+    body {
+      background-color: #c62828; /* Red background */
+      color: white;             /* White font */
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .timestamp {
+      text-align: center;
+      font-size: 0.9em;
+      margin-bottom: 20px;
+      color: #ffe0e0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #b71c1c;
+    }
+    td, th {
+      padding: 12px;
+      border: 1px solid white;
+    }
+    td:first-child {
+      font-weight: bold;
+      width: 30%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Status of the File</h1>
+  <div class="timestamp" id="datetime"></div>
+
+  <table>
+    <tr>
+      <td>Name</td>
+      <td>Balchndra Kulkarni</td>
+    </tr>
+    <tr>
+      <td>Mobile Number</td>
+      <td>9561004987</td>
+    </tr>
+    <tr>
+      <td>PAN</td>
+      <td>XXXXXXXXXX</td>
+    </tr>
+    <tr>
+      <td>Aadhar</td>
+      <td>8.47073E+11</td>
+    </tr>
+    <tr>
+      <td>File Number</td>
+      <td>Multiple Files</td>
+    </tr>
+    <tr>
+      <td>Fund Value</td>
+      <td>INR 8,65,90,912/-</td>
+    </tr>
+    <tr>
+      <td>File Owner</td>
+      <td>Senior Manager</td>
+    </tr>
+    <tr>
+      <td>Upload Status</td>
+      <td>Upload not Done</td>
+    </tr>
+    <tr>
+      <td>Approval Status</td>
+      <td>Approval Awaited</td>
+    </tr>
+  </table>
+
+  <script>
+    // Display current date and time
+    const now = new Date();
+    document.getElementById('datetime').textContent = now.toLocaleString();
+  </script>
+</body>
+</html>
